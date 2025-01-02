@@ -53,7 +53,7 @@
                         <h1 class="display-5 text-uppercase mb-4">Request A <span class="text_skfab_blue">Call Back</span></h1>
                     </div>
                     <p class="mb-5">Nonumy ipsum amet tempor takimata vero ea elitr. Diam diam ut et eos duo duo sed. Lorem elitr sadipscing eos et ut et stet justo, sit dolore et voluptua labore. Ipsum erat et ea ipsum magna sadipscing lorem. Sit lorem sea sanctus eos. Sanctus sit tempor dolores ipsum stet justo sit erat ea, sed diam sanctus takimata sit. Et at voluptua amet erat justo amet ea ipsum eos, eirmod accusam sea sed ipsum kasd ut.</p>
-                    <a class="btn btn-primary py-3 px-5" href="">Get A Quote</a>
+                    <a class="btn btn_skfab_blue py-3 px-5" href="">Get A Quote</a>
                 </div>
                 <div class="col-lg-8">
                     <div class="bg-white text-center p-5">
@@ -83,7 +83,7 @@
                                     <textarea class="form-control bg-light border-0" rows="5" placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Submit Request</button>
+                                    <button class="btn btn_skfab_blue w-100 py-3" type="submit">Submit Request</button>
                                 </div>
                             </div>
                         </form>

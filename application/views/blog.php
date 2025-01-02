@@ -14,7 +14,7 @@
     <!-- Blog Start -->
     <div class="container-fluid py-6 px-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">Latest <span class="text-primary">Articles</span> From Our Blog Post</h1>
+            <h1 class="display-5 text-uppercase mb-4">Latest <span class="text_skfab_blue">Articles</span> From Our Blog Post</h1>
         </div>
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
@@ -27,7 +27,7 @@
                                 <span>John Doe</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</span>
+                                <span class="ms-3"><i class="far fa-calendar-alt text_skfab_blue me-2"></i>01 Jan, 2045</span>
                             </div>
                         </div>
                         <h4 class="text-uppercase mb-3">Rebum diam clita lorem erat magna est erat</h4>
@@ -45,7 +45,7 @@
                                 <span>John Doe</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</span>
+                                <span class="ms-3"><i class="far fa-calendar-alt text_skfab_blue me-2"></i>01 Jan, 2045</span>
                             </div>
                         </div>
                         <h4 class="text-uppercase mb-3">Rebum diam clita lorem erat magna est erat</h4>
@@ -63,7 +63,7 @@
                                 <span>John Doe</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</span>
+                                <span class="ms-3"><i class="far fa-calendar-alt text_skfab_blue me-2"></i>01 Jan, 2045</span>
                             </div>
                         </div>
                         <h4 class="text-uppercase mb-3">Rebum diam clita lorem erat magna est erat</h4>
@@ -81,7 +81,7 @@
                                 <span>John Doe</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</span>
+                                <span class="ms-3"><i class="far fa-calendar-alt text_skfab_blue me-2"></i>01 Jan, 2045</span>
                             </div>
                         </div>
                         <h4 class="text-uppercase mb-3">Rebum diam clita lorem erat magna est erat</h4>
@@ -99,7 +99,7 @@
                                 <span>John Doe</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</span>
+                                <span class="ms-3"><i class="far fa-calendar-alt text_skfab_blue me-2"></i>01 Jan, 2045</span>
                             </div>
                         </div>
                         <h4 class="text-uppercase mb-3">Rebum diam clita lorem erat magna est erat</h4>
@@ -117,7 +117,7 @@
                                 <span>John Doe</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</span>
+                                <span class="ms-3"><i class="far fa-calendar-alt text_skfab_blue me-2"></i>01 Jan, 2045</span>
                             </div>
                         </div>
                         <h4 class="text-uppercase mb-3">Rebum diam clita lorem erat magna est erat</h4>
@@ -135,7 +135,7 @@
                                 <span>John Doe</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</span>
+                                <span class="ms-3"><i class="far fa-calendar-alt text_skfab_blue me-2"></i>01 Jan, 2045</span>
                             </div>
                         </div>
                         <h4 class="text-uppercase mb-3">Rebum diam clita lorem erat magna est erat</h4>
@@ -153,7 +153,7 @@
                                 <span>John Doe</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</span>
+                                <span class="ms-3"><i class="far fa-calendar-alt text_skfab_blue me-2"></i>01 Jan, 2045</span>
                             </div>
                         </div>
                         <h4 class="text-uppercase mb-3">Rebum diam clita lorem erat magna est erat</h4>
@@ -171,7 +171,7 @@
                                 <span>John Doe</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</span>
+                                <span class="ms-3"><i class="far fa-calendar-alt text_skfab_blue me-2"></i>01 Jan, 2045</span>
                             </div>
                         </div>
                         <h4 class="text-uppercase mb-3">Rebum diam clita lorem erat magna est erat</h4>
@@ -192,7 +192,7 @@
                     <li class="page-item"><a class="page-link" href="#">2</a></li>
                     <li class="page-item"><a class="page-link" href="#">3</a></li>
                     <li class="page-item">
-                      <a class="page-link rounded-0" href="#" aria-label="Next">
+                      <a class="page-link rounded-0 " href="#" aria-label="Next">
                         <span aria-hidden="true">&raquo;</span>
                         <span class="sr-only">Next</span>
                       </a>

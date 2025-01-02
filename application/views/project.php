@@ -14,7 +14,7 @@
     <!-- Portfolio Start -->
     <div class="container-fluid bg-light py-6 px-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">Some Of Our <span class="text-primary">Popular</span> Dream Projects</h1>
+            <h1 class="display-5 text-uppercase mb-4">Some Of Our <span class="text_skfab_blue">Popular</span> Dream Projects</h1>
         </div>
         <div class="row gx-5">
             <div class="col-12 text-center">
@@ -48,7 +48,7 @@
                     <img class="img-fluid w-100" src="<?=ASSETS_PATH?>img/portfolio-1.jpg" alt="">
                     <a class="portfolio-title shadow-sm" href="">
                         <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
+                        <span class="text-body"><i class="fa fa-map-marker-alt text_skfab_blue me-2"></i>123 Street, New York, USA</span>
                     </a>
                     <a class="portfolio-btn" href="<?=ASSETS_PATH?>img/portfolio-1.jpg" data-lightbox="portfolio">
                         <i class="bi bi-plus text-white"></i>
@@ -60,7 +60,7 @@
                     <img class="img-fluid w-100" src="<?=ASSETS_PATH?>img/portfolio-2.jpg" alt="">
                     <a class="portfolio-title shadow-sm" href="">
                         <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
+                        <span class="text-body"><i class="fa fa-map-marker-alt text_skfab_blue me-2"></i>123 Street, New York, USA</span>
                     </a>
                     <a class="portfolio-btn" href="<?=ASSETS_PATH?>img/portfolio-2.jpg" data-lightbox="portfolio">
                         <i class="bi bi-plus text-white"></i>
@@ -72,7 +72,7 @@
                     <img class="img-fluid w-100" src="<?=ASSETS_PATH?>img/portfolio-3.jpg" alt="">
                     <a class="portfolio-title shadow-sm" href="">
                         <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
+                        <span class="text-body"><i class="fa fa-map-marker-alt text_skfab_blue me-2"></i>123 Street, New York, USA</span>
                     </a>
                     <a class="portfolio-btn" href="<?=ASSETS_PATH?>img/portfolio-3.jpg" data-lightbox="portfolio">
                         <i class="bi bi-plus text-white"></i>
@@ -84,7 +84,7 @@
                     <img class="img-fluid w-100" src="<?=ASSETS_PATH?>img/portfolio-4.jpg" alt="">
                     <a class="portfolio-title shadow-sm" href="">
                         <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
+                        <span class="text-body"><i class="fa fa-map-marker-alt text_skfab_blue me-2"></i>123 Street, New York, USA</span>
                     </a>
                     <a class="portfolio-btn" href="<?=ASSETS_PATH?>img/portfolio-4.jpg" data-lightbox="portfolio">
                         <i class="bi bi-plus text-white"></i>
@@ -96,7 +96,7 @@
                     <img class="img-fluid w-100" src="<?=ASSETS_PATH?>img/portfolio-5.jpg" alt="">
                     <a class="portfolio-title shadow-sm" href="">
                         <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
+                        <span class="text-body"><i class="fa fa-map-marker-alt text_skfab_blue me-2"></i>123 Street, New York, USA</span>
                     </a>
                     <a class="portfolio-btn" href="<?=ASSETS_PATH?>img/portfolio-5.jpg" data-lightbox="portfolio">
                         <i class="bi bi-plus text-white"></i>
@@ -108,7 +108,7 @@
                     <img class="img-fluid w-100" src="<?=ASSETS_PATH?>img/portfolio-6.jpg" alt="">
                     <a class="portfolio-title shadow-sm" href="">
                         <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
+                        <span class="text-body"><i class="fa fa-map-marker-alt text_skfab_blue me-2"></i>123 Street, New York, USA</span>
                     </a>
                     <a class="portfolio-btn" href="<?=ASSETS_PATH?>img/portfolio-6.jpg" data-lightbox="portfolio">
                         <i class="bi bi-plus text-white"></i>

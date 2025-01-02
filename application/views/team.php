@@ -15,7 +15,7 @@
     <!-- Team Start -->
     <div class="container-fluid py-6 px-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">We Are <span class="text-primary">Professional & Expert</span> Workers</h1>
+            <h1 class="display-5 text-uppercase mb-4">We Are <span class="text_skfab_blue">Professional & Expert</span> Workers</h1>
         </div>
         <div class="row g-5">
             <div class="col-xl-3 col-lg-4 col-md-6">

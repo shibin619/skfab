@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteBase /test/git/skfab/
+  RewriteBase /
 
   # Redirect to index.php if file or folder does not exist
   RewriteCond %{REQUEST_FILENAME} !-f

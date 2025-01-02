@@ -87,5 +87,5 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 //predefined for this web
 
-define('BASE_URL', 'http://localhost/test/git/skfab/');
+define('BASE_URL', 'http://skfabrication.co.in/');
 define('ASSETS_PATH', BASE_URL . 'assets/');

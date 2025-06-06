@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'testweb',
+	'hostname' => 'sql309.ezyro.com',
+	'username' => 'ezyro_37987345',
+	'password' => '!Riyabin@1717#',
+	'database' => 'ezyro_37987345_skfab',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

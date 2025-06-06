@@ -9,7 +9,7 @@
     <meta content="<?=$data['site_owner']?>" name="description">
 
     <!-- Favicon -->
-    <link href="<?=ASSETS_PATH?>img/favicon.ico" rel="icon">
+    <link href="<?=$data['fav_url']?>" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -32,6 +32,45 @@
             background: linear-gradient(rgba(4, 15, 40, .7), rgba(4, 15, 40, .7)), 
                 url('<?= ASSETS_PATH ?>img/carousel-1.jpg') center center no-repeat;
         }
+        /* Default styles */
+        .heading {
+                font-size: 1.5rem; /* Adjust as needed for default size */
+                text-align: left; /* Default alignment */
+                display: flex;
+                align-items: center;
+                word-wrap: break-word; /* Enable word wrapping */
+                overflow-wrap: break-word; /* Ensure word wrapping works across browsers */
+                white-space: normal; /* Allow text to break onto multiple lines */
+            }
+
+            .logo_size {
+                width: 40px; /* Adjust for a reasonable size */
+                height: auto; /* Maintain aspect ratio */
+            }
+
+            /* For smaller screens */
+            @media (max-width: 768px) {
+                .heading {
+                    font-size: 1.2rem; /* Smaller font for mobile */
+                    text-align: center; /* Center alignment on mobile */
+                    flex-direction: column; /* Stack logo and text vertically */
+                    word-wrap: break-word; /* Enable word wrapping for mobile */
+                    overflow-wrap: break-word; /* Ensure word wrapping works on mobile */
+                    white-space: normal; /* Allow text to break onto multiple lines on mobile */
+                }
+
+                .logo_size {
+                    width: 30px; /* Smaller logo for mobile */
+                }
+            }
+
+        /*     .heading{
+            font-size: 28px;
+        }
+        .logo_size{
+            min-height: 60px;
+            width: 60px;
+        } */
     </style>
 
 
@@ -79,7 +118,7 @@
     <div class="container-fluid sticky-top bg-dark bg-light-radial shadow-sm px-5 pe-lg-0">
         <nav class="navbar navbar-expand-lg bg-dark bg-light-radial navbar-dark py-3 py-lg-0">
             <a href="<?=BASE_URL?>" class="navbar-brand">
-                <h1 class="m-0 display-4 text-uppercase text-white"><i class="bi bi-building text_skfab_blue me-2"></i><?=$data['site_owner']?></h1>
+                <h6 class="m-0 display-4 text-uppercase text-white heading"><img src="<?=$data['logo_url']?>" class="logo_size" alt="">&nbsp;<?=$data['site_owner']?></h6>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -95,8 +134,8 @@
                             <a href="<?=BASE_URL?>project" class="dropdown-item">Our Project</a>
                             <a href="<?=BASE_URL?>team" class="dropdown-item">The Team</a>
                             <a href="<?=BASE_URL?>testimonial" class="dropdown-item">Testimonial</a>
-                            <a href="<?=BASE_URL?>blog" class="dropdown-item">Blog Grid</a>
-                            <a href="<?=BASE_URL?>detail" class="dropdown-item">Blog Detail</a>
+                            <!-- <a href="<?=BASE_URL?>blog" class="dropdown-item">Blog Grid</a>
+                            <a href="<?=BASE_URL?>detail" class="dropdown-item">Blog Detail</a> -->
                         </div>
                     </div>
                     <a href="<?=BASE_URL?>contact" class="nav-item nav-link">Contact</a>

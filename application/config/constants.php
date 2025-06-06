@@ -86,6 +86,9 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 
 //predefined for this web
-
-define('BASE_URL', 'http://skfabrication.co.in/');
+$root=(isset($_SERVER['HTTPS']) ? "https://" : "http://").$_SERVER['HTTP_HOST'];
+$root.= str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+$config['base_url'] = $root;
+define('BASE_URL', $root);
+// define('BASE_URL', 'http://localhost/projects/skfab/');
 define('ASSETS_PATH', BASE_URL . 'assets/');

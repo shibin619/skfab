@@ -50,10 +50,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 // $route['default_controller'] = 'welcome';
+
+//$route['(.+)'] = "Website/$1";
+$route['(:any)'] = "Website/$1";
 $route['default_controller'] = 'Website';
 
-$route['(.+)'] = "Website/$1";
-//  $route['(:any)'] = "Website/$1";
+// Existing route to Website controller catch-all
+$route['(:any)'] = "Website/$1";
+
+// Add route to DozenDreams controller specifically
+$route['dozendreams'] = 'DozenDreams';
+$route['dozendreams/(:any)'] = 'DozenDreams/$1';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 

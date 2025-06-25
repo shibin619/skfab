@@ -1,0 +1,33 @@
+/* Theme Colors */
+body.bg-primary {
+  background-color: #0b5d8c !important; /* Dark Blue */
+}
+
+.text-accent {
+  color: #c4c28f !important; /* Golden */
+}
+
+.border-accent {
+  border-color: #c4c28f !important;
+}
+
+/* Button Theme */
+.btn-outline-light {
+  border-color: #c4c28f !important;
+  color: #c4c28f !important;
+}
+
+.btn-outline-light:hover {
+  background-color: #c4c28f !important;
+  color: #0b5d8c !important;
+}
+
+/* Optional Enhancements */
+.card {
+  background-color: #093f64; /* Slightly darker card for contrast */
+}
+
+input.form-control:focus {
+  border-color: #c4c28f;
+  box-shadow: 0 0 0 0.2rem rgba(196, 194, 143, 0.25);
+}

@@ -1,0 +1,50 @@
+
+DozenDreams Player Selection & Team Combination Logic
+=====================================================
+
+🧠 Core Logic:
+--------------
+- Total pool of players: 30
+- Final team must have 11 players
+- Player selection conditions based on Captain (C) and Vice-Captain (VC):
+
+  Rules:
+  - If both Captain & Vice-Captain are selected ➝ Max 9 players can be selected manually
+  - If only one of Captain or Vice-Captain is selected ➝ Max 10 players
+  - If neither is selected ➝ Max 11 players can be manually selected
+
+🔁 Team Generation:
+-------------------
+- After selecting players (N selected), fill (11 - N) from the remaining pool (30 - N)
+- For each complete team:
+   • If both C & VC selected by user ➝ keep them fixed
+   • If only one (C or VC) selected ➝ generate combinations by fixing that and rotating the other
+   • If neither selected ➝ generate all possible C/VC pairs (i ≠ j)
+
+⚙️ Combination Table (Based on selected players count):
+------------------------------------------------------
+
+| Selected Players | Extra Players Needed | Pool Size | Combinations (C)     | Cap/VC Permutations | Total Combinations |
+|------------------|----------------------|-----------|----------------------|----------------------|---------------------|
+| 11               | 0                    | 19        | 1                    | 110 (11P2)           | 110                 |
+| 10               | 1                    | 20        | 20                   | 1320 (11P2 × 20)     | 2,640               |
+| 9                | 2                    | 21        | 210                  | 990 (11P2 × 210)     | 23,100              |
+| 8                | 3                    | 22        | 1,540                | 880 (11P2 × 1540)    | 169,400             |
+| 7                | 4                    | 23        | 8,855                | 770 (11P2 × 8855)    | 851,280             |
+| 6                | 5                    | 24        | 42,504               | 660 (11P2 × 42504)   | 2,805,264           |
+| 5                | 6                    | 25        | 177,100              | 550 (11P2 × 177100)  | 9,740,500           |
+| 4                | 7                    | 26        | 657,800              | 440 (11P2 × 657800)  | 28,943,200          |
+| 3                | 8                    | 27        | 2,042,975            | 330 (11P2 × 2042975) | 67,417,175          |
+| 2                | 9                    | 28        | 6,156,120            | 220 (11P2 × 6156120) | 135,234,640         |
+| 1                | 10                   | 29        | 15,134,385           | 110 (11P2 × 15134385)| 166,478,235         |
+| 0                | 11                   | 30        | 30,045,015           | 110 (11P2 × 30045015)| 330,495,165         |
+
+💡 Notes:
+---------
+- Combinations are calculated as: C(N, K) = N! / [K!(N-K)!]
+- C(remaining_pool, extra_needed) × permutations of captain/vice-captain
+- System should limit to top 10,000 combinations based on credit and role validation
+
+📌 Tip:
+-------
+For performance, restrict combinations at controller level with max limit.
